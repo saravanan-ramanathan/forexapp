@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.project.forex.ForexappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 171.201 s - in com.project.forex.ForexappApplicationTests

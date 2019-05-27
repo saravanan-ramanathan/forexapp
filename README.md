@@ -29,7 +29,7 @@ http://localhost:8080/
 
 Assumptions
 -----------
-1) Forex App is considered to perform trading only on GBP/USD currency.
+1) Forex App is considered to perform trading only on GBP/USD currency pair.
 2) Forex price is read from the configuration file and it is a fixed value(1.2610).
 3) Forex order matching(BID vs ASK) is performed on the below economical attributes.
 	> OrderType - BID/ASK

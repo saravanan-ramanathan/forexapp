@@ -4,11 +4,14 @@ Forex Test App
 Source code for Forex Test app is available in the GitHub repo below.
 https://github.com/saravanan-ramanathan/forexapp
 
+Google Drive(Source)
+https://drive.google.com/file/d/1HbQOMBPD-_OP28w6L519UPU9MpKm76Al/view?usp=sharing
+
 Executable JAR File
 -------------------
 Because of size limitations, executable jar(forexapp-0.0.1-SNAPSHOT.jar) file for forex app is uploaded in Google drive 
 and it is available in the location below.
-https://drive.google.com/open?id=1v1oFBVZukhWLQXDGOKIN0nwdPtgNQ5Ji
+https://drive.google.com/file/d/1Bc68ZdP5Nd6tRGmPVhLdX6REBdSncxUR/view?usp=sharing
 
 Prerequisites for running Forex App
 -----------------------------------
@@ -21,7 +24,8 @@ Once the JAR is downloaded, run the jar with the command below.
 cmd> java -jar forexapp-0.0.1-SNAPSHOT.jar
 
 Application should startup and it should be up and running on port 8080.
-http://localhost:8080/api/v1
+http://localhost:8080/
+
 
 Assumptions
 -----------
@@ -46,6 +50,11 @@ Design Considerations
 3) Forex app can run as a stand alone service and can be hosted in any run time environment.
 4) Forex app was developed using Test Driven Development(TDD) and there are various test cases added for each functionality.
 5) Forex app uses N-Tier architecture(Client, Server[Business Logic], Data store).
+6) Tech stack
+	> Java 8
+	> Spring Boot
+	> H2 Inmemory database
+	> JUnit
 
 RESTFul API
 -----------
@@ -73,6 +82,7 @@ http://localhost:8080/api/v1/matchedtrades
 
 For getting all cancelled orders
 http://localhost:8080/api/v1/cancelledorders
+
 
 
 Sample payloads(For testing purpose)
